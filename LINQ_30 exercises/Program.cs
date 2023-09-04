@@ -22,7 +22,7 @@ namespace LINQ_30_exercises
                 "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS"
             };
 
-            string name = "Kamran";
+            string name = "KAMRAN";
 
             //// 1.
             //var even = list.Where(ev => ev % 2 == 0).AsEnumerable();
@@ -94,6 +94,13 @@ namespace LINQ_30_exercises
             //Console.Write("Take on List: ");
             //int take = Convert.ToInt32(Console.ReadLine());
             //foreach (int i in list.Take(take))
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //// 12.
+            //var upperLetter = name.Split(' ').Where(x => Char.Equals(x, x.ToUpper())).AsEnumerable();
+            //foreach (var i in upperLetter)
             //{
             //    Console.WriteLine(i);
             //}
